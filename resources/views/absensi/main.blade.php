@@ -276,7 +276,7 @@
                 <li>
                     <a href="javascript:;" class="top-menu">
                         <div class="top-menu__icon"> <i data-lucide="activity"></i> </div>
-                        <div class="top-menu__title"> Apps <i data-lucide="chevron-down" class="top-menu__sub-icon"></i> </div>
+                        <div class="top-menu__title"> Data Karyawan <i data-lucide="chevron-down" class="top-menu__sub-icon"></i> </div>
                     </a>
                     <ul class="">
                         <li>
@@ -392,7 +392,7 @@
                 <li>
                     <a href="javascript:;" class="top-menu">
                         <div class="top-menu__icon"> <i data-lucide="layout"></i> </div>
-                        <div class="top-menu__title"> Pages <i data-lucide="chevron-down" class="top-menu__sub-icon"></i> </div>
+                        <div class="top-menu__title"> Managemen User <i data-lucide="chevron-down" class="top-menu__sub-icon"></i> </div>
                     </a>
                     <ul class="">
                         <li>
@@ -545,120 +545,7 @@
                         </li>
                     </ul>
                 </li>
-                <li>
-                    <a href="javascript:;" class="top-menu">
-                        <div class="top-menu__icon"> <i data-lucide="inbox"></i> </div>
-                        <div class="top-menu__title"> Components <i data-lucide="chevron-down" class="top-menu__sub-icon"></i> </div>
-                    </a>
-                    <ul class="">
-                        <li>
-                            <a href="javascript:;" class="top-menu">
-                                <div class="top-menu__icon"> <i data-lucide="activity"></i> </div>
-                                <div class="top-menu__title"> Table <i data-lucide="chevron-down" class="top-menu__sub-icon"></i> </div>
-                            </a>
-                            <ul class="">
-                                <li>
-                                    <a href="top-menu-light-regular-table.html" class="top-menu">
-                                        <div class="top-menu__icon"> <i data-lucide="zap"></i> </div>
-                                        <div class="top-menu__title">Regular Table</div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="" class="top-menu">
-                                        <div class="top-menu__icon"> <i data-lucide="zap"></i> </div>
-                                        <div class="top-menu__title">Rekap Absensi</div>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="javascript:;" class="top-menu">
-                                <div class="top-menu__icon"> <i data-lucide="activity"></i> </div>
-                                <div class="top-menu__title"> Overlay <i data-lucide="chevron-down" class="top-menu__sub-icon"></i> </div>
-                            </a>
-                            <ul class="">
-                                <li>
-                                    <a href="top-menu-light-modal.html" class="top-menu">
-                                        <div class="top-menu__icon"> <i data-lucide="zap"></i> </div>
-                                        <div class="top-menu__title">Modal</div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="top-menu-light-slide-over.html" class="top-menu">
-                                        <div class="top-menu__icon"> <i data-lucide="zap"></i> </div>
-                                        <div class="top-menu__title">Slide Over</div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="top-menu-light-notification.html" class="top-menu">
-                                        <div class="top-menu__icon"> <i data-lucide="zap"></i> </div>
-                                        <div class="top-menu__title">Notification</div>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="top-menu-light-tab.html" class="top-menu">
-                                <div class="top-menu__icon"> <i data-lucide="activity"></i> </div>
-                                <div class="top-menu__title"> Tab </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="top-menu-light-accordion.html" class="top-menu">
-                                <div class="top-menu__icon"> <i data-lucide="activity"></i> </div>
-                                <div class="top-menu__title"> Accordion </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="top-menu-light-button.html" class="top-menu">
-                                <div class="top-menu__icon"> <i data-lucide="activity"></i> </div>
-                                <div class="top-menu__title"> Button </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="top-menu-light-alert.html" class="top-menu">
-                                <div class="top-menu__icon"> <i data-lucide="activity"></i> </div>
-                                <div class="top-menu__title"> Alert </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="top-menu-light-progress-bar.html" class="top-menu">
-                                <div class="top-menu__icon"> <i data-lucide="activity"></i> </div>
-                                <div class="top-menu__title"> Progress Bar </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="top-menu-light-tooltip.html" class="top-menu">
-                                <div class="top-menu__icon"> <i data-lucide="activity"></i> </div>
-                                <div class="top-menu__title"> Tooltip </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="top-menu-light-dropdown.html" class="top-menu">
-                                <div class="top-menu__icon"> <i data-lucide="activity"></i> </div>
-                                <div class="top-menu__title"> Dropdown </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="top-menu-light-typography.html" class="top-menu">
-                                <div class="top-menu__icon"> <i data-lucide="activity"></i> </div>
-                                <div class="top-menu__title"> Typography </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="top-menu-light-icon.html" class="top-menu">
-                                <div class="top-menu__icon"> <i data-lucide="activity"></i> </div>
-                                <div class="top-menu__title"> Icon </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="side-menu-light-loading-icon.html" class="top-menu">
-                                <div class="top-menu__icon"> <i data-lucide="activity"></i> </div>
-                                <div class="top-menu__title"> Loading Icon </div>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
+                
                 <li>
                     <a href="javascript:;" class="top-menu">
                         <div class="top-menu__icon"> <i data-lucide="sidebar"></i> </div>

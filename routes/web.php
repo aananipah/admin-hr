@@ -36,7 +36,7 @@ Route::resource('/pekerjaans', \App\Http\Controllers\PekerjaanController::class)
 Route::get('/confirm-email/{token}', [AuthController::class, 'confirm'])->name('confirm');
 
 // Absensi
-Route::get('/absensi', [AbsensiController::class, 'index']);
+Route::get('/absensi', [AbsensiController::class, 'index'])->name('absensi');
 Route::get('absensi-create', [AbsensiController::class, 'create']);
 Route::get('absensi-destroy/{id}', [AbsensiController::class, 'destroy']);
 Route::get('absensi-edit.{id}', [AbsensiController::class, 'edit']);

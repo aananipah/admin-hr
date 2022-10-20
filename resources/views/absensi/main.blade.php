@@ -235,7 +235,7 @@
         <nav class="top-nav">
             <ul>
                 <li>
-                    <a href="javascript:;.html" class="top-menu top-menu--active">
+                    <a href="javascript:;.html" class="top-menu">
                         <div class="top-menu__icon"> <i data-lucide="home"></i> </div>
                         <div class="top-menu__title"> Dashboard <i data-lucide="chevron-down" class="top-menu__sub-icon"></i> </div>
                     </a>
@@ -267,7 +267,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="{{ route('absensi') }}" class="top-menu">
+                    <a href="{{ route('absensi') }}" class="top-menu top-menu--active ">
                         <div class="top-menu__icon"> <i data-lucide="box"></i> </div>
                         <div class="top-menu__title"> Absensi <i class="top-menu__sub-icon"></i> </div>
                     </a>
@@ -744,6 +744,11 @@
             </ul>
         </nav>
         <!-- END: Top Menu -->
+</div>
+<div class="content">
+    <div class="intro-y flex flex-col sm:flex-row items-center mt-8">
+</div>
+<div>
     @yield('container')
 
   </div>

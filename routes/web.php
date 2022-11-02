@@ -7,6 +7,7 @@ use App\Http\Controllers\LoginController;
 use App\Http\Controllers\PekerjaanController;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,11 +21,17 @@ use App\Http\Controllers\DashboardController;
 */
 
 
+
 Route::resource('/layouts', \App\Http\Controllers\LayoutsController::class)->middleware('auth');
 Route::get('/', [LoginController::class, 'index'])->name('login')->middleware('guest');
 Route::post('/login', [LoginController::class, 'login'])->name('login.proses')->middleware('guest');
 Route::get('/logout', [LoginController::class, 'logout'])->name('logout');
 
+Route::get('/home', function () {
+    return view ('/home');
+});
+
+Route::resource('/user', \App\Http\Controllers\UserController::class);
 
 //route resource
 Route::resource('/posts', \App\Http\Controllers\PostController::class);

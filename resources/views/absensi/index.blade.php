@@ -1,4 +1,4 @@
-@extends('absensi.main')
+@extends('layouts.main')
 @section('container')
         <!-- BEGIN: Content -->
         <div class="content">
@@ -13,7 +13,7 @@
             <div class="col-md-12">
                 <div class="card border-0 shadow rounded">
                     <div class="card-body">
-                        <!-- <a href="{{ url('absensi-create') }}" class="btn btn-md btn-success mb-3">TAMBAH ABSENSI</a> -->
+                        <a href="{{ url('absensi-create') }}" class="btn btn-md btn-success mb-3">TAMBAH ABSENSI</a>
                         <table class="table table-bordered">
                             <thead>
                               <tr class="text-center">
@@ -22,7 +22,7 @@
                                 <th scope="col">NAMA</th>
                                 <th scope="col">WAKTU</th>
                                 <th scope="col">JABATAN</th>
-                                <!-- <th class="text-center">AKSI</th> -->
+                                <th class="text-center">AKSI</th>
                               </tr>
                             </thead>
                             <tbody>
@@ -35,14 +35,14 @@
                                     <td>{{ $absensi->name }}</td>
                                     <td>{{ $absensi->waktu }}</td>
                                     <td>{{ $absensi->jabatan }}</td>
-                                    <!-- <td class="text-center">
+                                    <td class="text-center">
                                         <form onsubmit="return confirm('Apakah Anda Yakin ?');" action="{{ url('absensi-destroy', $absensi->id) }}" method="POST">
                                             <a href="{{ url('absensi-edit', $absensi->id) }}" class="btn btn-sm btn-primary">EDIT</a>
                                             @csrf
                                             @method('DELETE')
-                                            <button type="submit" class="btn btn-sm btn-danger">HAPUS</button>
+                                            <button class="btn btn-sm btn-danger" onclick="return confirm('Hapus Data?')">Hapus</button>
                                         </form>
-                                    </td> -->
+                                    </td>
                                 </tr>
                               @empty
                                   <div class="alert alert-danger">

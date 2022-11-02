@@ -200,7 +200,7 @@
                     <div class="dropdown-menu w-56">
                         <ul class="dropdown-content bg-primary/80 before:block before:absolute before:bg-black before:inset-0 before:rounded-md before:z-[-1] text-white">
                             <li class="p-2">
-                                <div class="font-medium">Kevin Spacey</div>
+                                <div class="font-medium">Aan anipah</div>
                                 <div class="text-xs text-white/60 mt-0.5 dark:text-slate-500">Backend Engineer</div>
                             </li>
                             <li>
@@ -210,7 +210,7 @@
                                 <a href="" class="dropdown-item hover:bg-white/5"> <i data-lucide="user" class="w-4 h-4 mr-2"></i> Profile </a>
                             </li>
                             <li>
-                                <a href="" class="dropdown-item hover:bg-white/5"> <i data-lucide="edit" class="w-4 h-4 mr-2"></i> Add Account </a>
+                                <a href="/user" class="dropdown-item hover:bg-white/5"> <i data-lucide="edit" class="w-4 h-4 mr-2"></i> Add Account </a>
                             </li>
                             <li>
                                 <a href="" class="dropdown-item hover:bg-white/5"> <i data-lucide="lock" class="w-4 h-4 mr-2"></i> Reset Password </a>
@@ -235,39 +235,14 @@
         <nav class="top-nav">
             <ul>
                 <li>
-                    <a href="javascript:;.html" class="top-menu top-menu--active">
+                    <a href="/" class="top-menu top-menu--active">
                         <div class="top-menu__icon"> <i data-lucide="home"></i> </div>
-                        <div class="top-menu__title"> Dashboard <i data-lucide="chevron-down" class="top-menu__sub-icon"></i> </div>
+                        <div class="top-menu__title"> Dashboard <i class="top-menu__sub-icon"></i> </div>
                     </a>
-                    <ul class="top-menu__sub-open">
-                        <li>
-                            <a href="top-menu-light-dashboard-overview-1.html" class="top-menu">
-                                <div class="top-menu__icon"> <i data-lucide="activity"></i> </div>
-                                <div class="top-menu__title"> Overview 1 </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="top-menu-light-dashboard-overview-2.html" class="top-menu">
-                                <div class="top-menu__icon"> <i data-lucide="activity"></i> </div>
-                                <div class="top-menu__title"> Overview 2 </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="top-menu-light-dashboard-overview-3.html" class="top-menu">
-                                <div class="top-menu__icon"> <i data-lucide="activity"></i> </div>
-                                <div class="top-menu__title"> Overview 3 </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="top-menu-light-dashboard-overview-4.html" class="top-menu">
-                                <div class="top-menu__icon"> <i data-lucide="activity"></i> </div>
-                                <div class="top-menu__title"> Overview 4 </div>
-                            </a>
-                        </li>
-                    </ul>
+                    
                 </li>
                 <li>
-                    <a href="{{ route('absensi') }}" class="top-menu">
+                    <a href="{{ route('absensi') }}" class="top-menu ">
                         <div class="top-menu__icon"> <i data-lucide="box"></i> </div>
                         <div class="top-menu__title"> Absensi <i class="top-menu__sub-icon"></i> </div>
                     </a>
@@ -276,7 +251,7 @@
                 <li>
                     <a href="javascript:;" class="top-menu">
                         <div class="top-menu__icon"> <i data-lucide="activity"></i> </div>
-                        <div class="top-menu__title"> Data Karyawan <i data-lucide="chevron-down" class="top-menu__sub-icon"></i> </div>
+                        <div class="top-menu__title"> Jabatan <i data-lucide="chevron-down" class="top-menu__sub-icon"></i> </div>
                     </a>
                     <ul class="">
                         <li>
@@ -390,43 +365,22 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="javascript:;" class="top-menu">
+                    <a href="" class="top-menu">
                         <div class="top-menu__icon"> <i data-lucide="layout"></i> </div>
-                        <div class="top-menu__title"> Management User <i data-lucide="chevron-down" class="top-menu__sub-icon"></i> </div>
+                        <div class="top-menu__title"> Data Karyawan <i data-lucide="chevron-down" class="top-menu__sub-icon"></i> </div>
                     </a>
                     <ul class="">
                         <li>
-                            <a href="javascript:;" class="top-menu">
+                            <a href="" class="top-menu">
                                 <div class="top-menu__icon"> <i data-lucide="activity"></i> </div>
-                                <div class="top-menu__title"> Wizards <i data-lucide="chevron-down" class="top-menu__sub-icon"></i> </div>
+                                <div class="top-menu__title"> Menu <i class="top-menu__sub-icon"></i> </div>
                             </a>
-                            <ul class="">
-                                <li>
-                                    <a href="top-menu-light-wizard-layout-1.html" class="top-menu">
-                                        <div class="top-menu__icon"> <i data-lucide="zap"></i> </div>
-                                        <div class="top-menu__title">Layout 1</div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="top-menu-light-wizard-layout-2.html" class="top-menu">
-                                        <div class="top-menu__icon"> <i data-lucide="zap"></i> </div>
-                                        <div class="top-menu__title">Layout 2</div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="top-menu-light-wizard-layout-3.html" class="top-menu">
-                                        <div class="top-menu__icon"> <i data-lucide="zap"></i> </div>
-                                        <div class="top-menu__title">Layout 3</div>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
                         <li>
                             <a href="javascript:;" class="top-menu">
                                 <div class="top-menu__icon"> <i data-lucide="activity"></i> </div>
-                                <div class="top-menu__title"> Blog <i data-lucide="chevron-down" class="top-menu__sub-icon"></i> </div>
+                                <div class="top-menu__title"> Tambah <i data-lucide="chevron-down" class="top-menu__sub-icon"></i> </div>
                             </a>
-                            <ul class="">
+                            <!-- <ul class="">
                                 <li>
                                     <a href="top-menu-light-blog-layout-1.html" class="top-menu">
                                         <div class="top-menu__icon"> <i data-lucide="zap"></i> </div>
@@ -542,7 +496,7 @@
                                 <div class="top-menu__icon"> <i data-lucide="activity"></i> </div>
                                 <div class="top-menu__title"> Change Password </div>
                             </a>
-                        </li>
+                        </li> -->
                     </ul>
                 </li>
                 
@@ -631,6 +585,11 @@
             </ul>
         </nav>
         <!-- END: Top Menu -->
+</div>
+<div class="content">
+    <div class="intro-y flex flex-col sm:flex-row items-center mt-8">
+</div>
+<div>
     @yield('container')
 
   </div>

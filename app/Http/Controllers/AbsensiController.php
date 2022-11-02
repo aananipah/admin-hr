@@ -65,16 +65,14 @@ class AbsensiController extends Controller
         return redirect('absensi');
     }
     /**
-     * destroy
+     * Remove the specified resource from storage.
      *
-     * @param  mixed $absensi
-     * @return void
+     * @param  \App\Models\Absensi  $absensi
+     * @return \Illuminate\Http\Response
      */
-    public function destroy(Absensi $absensi){
-
-        DB:table('absensi')->where('id',$id)->delete();
-
-        //redirect to index
-        return redirect('absensi');
+    public function destroy(absensi $absensi)
+    {
+        $absensi->delete();
+        return redirect('absensi')->with('success', 'Hapus Data Berhasil');
     }
 }

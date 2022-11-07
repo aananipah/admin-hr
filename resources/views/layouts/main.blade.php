@@ -207,7 +207,7 @@
                                 <hr class="dropdown-divider border-white/[0.08]">
                             </li>
                             <li>
-                                <a href="" class="dropdown-item hover:bg-white/5"> <i data-lucide="user" class="w-4 h-4 mr-2"></i> Profile </a>
+                            <a class="dropdown-item hover:bg-white/5" href="{{ route('profile.index') }}"><i data-lucide="user" class="w-4 h-4 mr-2"></i> Profile </a>
                             </li>
                             <li>
                                 <a href="/user" class="dropdown-item hover:bg-white/5"> <i data-lucide="edit" class="w-4 h-4 mr-2"></i> Add Account </a>
@@ -255,112 +255,16 @@
                     </a>
                     <ul class="">
                         <li>
-                            <a href="javascript:;" class="top-menu">
+                            <a href="" class="top-menu">
                                 <div class="top-menu__icon"> <i data-lucide="activity"></i> </div>
-                                <div class="top-menu__title"> Users <i data-lucide="chevron-down" class="top-menu__sub-icon"></i> </div>
-                            </a>
-                            <ul class="">
-                                <li>
-                                    <a href="top-menu-light-users-layout-1.html" class="top-menu">
-                                        <div class="top-menu__icon"> <i data-lucide="zap"></i> </div>
-                                        <div class="top-menu__title">Layout 1</div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="top-menu-light-users-layout-2.html" class="top-menu">
-                                        <div class="top-menu__icon"> <i data-lucide="zap"></i> </div>
-                                        <div class="top-menu__title">Layout 2</div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="top-menu-light-users-layout-3.html" class="top-menu">
-                                        <div class="top-menu__icon"> <i data-lucide="zap"></i> </div>
-                                        <div class="top-menu__title">Layout 3</div>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="javascript:;" class="top-menu">
-                                <div class="top-menu__icon"> <i data-lucide="activity"></i> </div>
-                                <div class="top-menu__title"> Profile <i data-lucide="chevron-down" class="top-menu__sub-icon"></i> </div>
-                            </a>
-                            <ul class="">
-                                <li>
-                                    <a href="top-menu-light-profile-overview-1.html" class="top-menu">
-                                        <div class="top-menu__icon"> <i data-lucide="zap"></i> </div>
-                                        <div class="top-menu__title">Overview 1</div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="top-menu-light-profile-overview-2.html" class="top-menu">
-                                        <div class="top-menu__icon"> <i data-lucide="zap"></i> </div>
-                                        <div class="top-menu__title">Overview 2</div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="top-menu-light-profile-overview-3.html" class="top-menu">
-                                        <div class="top-menu__icon"> <i data-lucide="zap"></i> </div>
-                                        <div class="top-menu__title">Overview 3</div>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="top-menu-light-inbox.html" class="top-menu">
-                                <div class="top-menu__icon"> <i data-lucide="activity"></i> </div>
-                                <div class="top-menu__title"> Inbox </div>
+                                <div class="top-menu__title"> Menu <i class="top-menu__sub-icon"></i> </div>
                             </a>
                         </li>
                         <li>
-                            <a href="top-menu-light-file-manager.html" class="top-menu">
+                            <a href="/pekerjaans" class="top-menu">
                                 <div class="top-menu__icon"> <i data-lucide="activity"></i> </div>
-                                <div class="top-menu__title"> File Manager </div>
+                                <div class="top-menu__title"> Tambah <i class="top-menu__sub-icon"></i> </div>
                             </a>
-                        </li>
-                        <li>
-                            <a href="top-menu-light-point-of-sale.html" class="top-menu">
-                                <div class="top-menu__icon"> <i data-lucide="activity"></i> </div>
-                                <div class="top-menu__title"> Point of Sale </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="top-menu-light-chat.html" class="top-menu">
-                                <div class="top-menu__icon"> <i data-lucide="activity"></i> </div>
-                                <div class="top-menu__title"> Chat </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="top-menu-light-post.html" class="top-menu">
-                                <div class="top-menu__icon"> <i data-lucide="activity"></i> </div>
-                                <div class="top-menu__title"> Post </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="top-menu-light-calendar.html" class="top-menu">
-                                <div class="top-menu__icon"> <i data-lucide="activity"></i> </div>
-                                <div class="top-menu__title"> Calendar </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="javascript:;" class="top-menu">
-                                <div class="top-menu__icon"> <i data-lucide="activity"></i> </div>
-                                <div class="top-menu__title"> Crud <i data-lucide="chevron-down" class="top-menu__sub-icon"></i> </div>
-                            </a>
-                            <ul class="">
-                                <li>
-                                    <a href="side-menu-light-crud-data-list.html" class="top-menu">
-                                        <div class="top-menu__icon"> <i data-lucide="zap"></i> </div>
-                                        <div class="top-menu__title">Data List</div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="side-menu-light-crud-form.html" class="top-menu">
-                                        <div class="top-menu__icon"> <i data-lucide="zap"></i> </div>
-                                        <div class="top-menu__title">Form</div>
-                                    </a>
-                                </li>
-                            </ul>
                         </li>
                     </ul>
                 </li>
@@ -376,9 +280,9 @@
                                 <div class="top-menu__title"> Menu <i class="top-menu__sub-icon"></i> </div>
                             </a>
                         <li>
-                            <a href="javascript:;" class="top-menu">
+                            <a href="/posts" class="top-menu">
                                 <div class="top-menu__icon"> <i data-lucide="activity"></i> </div>
-                                <div class="top-menu__title"> Tambah <i data-lucide="chevron-down" class="top-menu__sub-icon"></i> </div>
+                                <div class="top-menu__title"> Tambah <i class="top-menu__sub-icon"></i> </div>
                             </a>
                             <!-- <ul class="">
                                 <li>

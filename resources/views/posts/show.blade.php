@@ -1,13 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Detail Data Karyawan</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-</head>
-<body style="background: lightgray">
+@extends('layouts.main')
+@section('container')
+        <!-- BEGIN: Content -->
+        <div class="content">
+            <div class="intro-y flex flex-col sm:flex-row items-center mt-8">
+                <h2 class="text-lg font-medium mr-auto">
+                   Detail Data Karyawan
+                </h2>
+        </div>
   
 <div class="card" style="margin:20px;">
   <div class="card-header">Detail Data Karyawan</div>
@@ -23,5 +22,6 @@
     <a class="btn btn-primary" href="{{ route('posts.index') }}"> Kembali </a>
   </div>
 </div>
+@endsection
    
   

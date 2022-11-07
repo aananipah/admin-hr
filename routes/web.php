@@ -8,6 +8,7 @@ use App\Http\Controllers\PekerjaanController;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\ProfileController;
 
 /*
 |--------------------------------------------------------------------------
@@ -48,3 +49,7 @@ Route::get('absensi-create', [AbsensiController::class, 'create']);
 Route::get('absensi-destroy/{id}', [AbsensiController::class, 'destroy']);
 Route::get('absensi-edit.{id}', [AbsensiController::class, 'edit']);
 Route::post('absensi-store', [AbsensiController::class, 'store']);
+
+//profile
+Route::get('/profile', [App\Http\Controllers\ProfileController::class, 'index'])->name('profile.index');
+Route::patch('/profile/{id}', [App\Http\Controllers\ProfileController::class, 'update'])->name('profile.update');
